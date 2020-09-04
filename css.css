@@ -1,0 +1,45 @@
+.cuadro {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+}
+
+#cuadro-1 {
+    border-top-left-radius: 250px;
+    background-color: green;
+}
+
+#cuadro-2 {
+    border-top-right-radius: 250px;
+    background-color: red;
+}
+
+#cuadro-3 {
+    border-bottom-left-radius: 250px;
+    background-color: yellow;
+}
+
+#cuadro-4 {
+    border-bottom-right-radius: 250px;
+    background-color: blue;
+}
+
+.opacidad {
+    transition: opacity 500ms;
+    transition-duration: 500ms;
+    opacity: 1;
+}
+
+body {
+    background: #eee;
+}
+
+.panel {
+    width: 100%;
+    text-align: center;
+}
+
+.select {
+    height: 260px;
+    width: 260px;
+}
