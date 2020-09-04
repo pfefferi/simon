@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Simon</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css.css" />
+    </head>
+    <body class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="alert alert-primary" role="alert" id="alert">
+                        Haga click en el botón para comenzar a jugar.
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <p>Ronda # <strong id="stage">0</strong></p>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" class="btn btn-primary" id="button">
+                        Jugar!
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="panel" class="panel">
+            <div>
+                <div id="cuadro-1" class="cuadro mx-1"></div>
+                <div id="cuadro-2" class="cuadro"></div>
+            </div>
+            <div>
+                <div id="cuadro-3" class="cuadro mx-1"></div>
+                <div id="cuadro-4" class="cuadro"></div>
+            </div>
+        </div>
+    </body>
+    <script src="simon.js"></script>
+</html>
